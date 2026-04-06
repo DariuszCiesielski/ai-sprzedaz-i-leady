@@ -1,5 +1,9 @@
 🇬🇧 [English](README.md) | 🇵🇱 [Polski](README.pl.md)
 
+![Last updated](https://img.shields.io/badge/Last%20updated-April%202026-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg)
+
 # Framework generowania leadów z AI
 
 > Framework generowania leadów oparty na AI z pełną zgodnością RODO dla polskiego rynku
@@ -52,6 +56,18 @@ Praktyczny framework do budowania pipeline'ów generowania leadów wspomaganych 
 ## Uwaga: RODO
 
 Ten framework kładzie nacisk na zgodność prawną. Jednak **odpowiedzialność za zgodność** Twojej konkretnej implementacji spoczywa na Tobie. W razie wątpliwości skonsultuj się z prawnikiem specjalizującym się w RODO.
+
+## Powiązane repozytoria
+
+- [ai-automatyzacja-biznesu](https://github.com/DariuszCiesielski/ai-automatyzacja-biznesu/blob/main/README.pl.md) — praktyczne przepisy na automatyzacje dla polskich MŚP
+- [ai-content-marketing](https://github.com/DariuszCiesielski/ai-content-marketing/blob/main/README.pl.md) — pipeline contentowy AI do briefów, artykułów i postów social media
+- [strategia-marketingowa-ai](https://github.com/DariuszCiesielski/strategia-marketingowa-ai/blob/main/README.pl.md) — kompletny framework strategii marketingowej AI
+
+## Bądź w kontakcie
+
+- **Newsletter**: [AI w Biznesie](https://aiwbiznesie.pl)
+- **LinkedIn**: [Dariusz Ciesielski](https://www.linkedin.com/in/dariuszciesielski/)
+- **Więcej repozytoriów**: [DariuszCiesielski na GitHub](https://github.com/DariuszCiesielski)
 
 ## Licencja
 
