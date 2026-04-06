@@ -1,6 +1,10 @@
 🇬🇧 [English](README.md) | 🇵🇱 [Polski](README.pl.md)
 
-# AI-Powered Lead Generation & Sales Framework
+![Last updated](https://img.shields.io/badge/Last%20updated-April%202026-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg)
+
+# AI Lead Generation & Sales Framework for the Polish Market
 
 > AI-powered lead generation framework with GDPR compliance for the Polish market
 
@@ -59,6 +63,22 @@ A practical framework for building AI-powered lead generation pipelines — from
 ## GDPR/RODO Warning
 
 This framework emphasizes legal compliance. However, **you are responsible** for ensuring your specific implementation complies with applicable laws. When in doubt, consult a legal professional specializing in GDPR/RODO.
+
+## Contributing
+
+Contributions, corrections, and field-tested sales workflows are welcome. Open an issue or PR if you want to improve the framework or add a practical case study.
+
+## Related Repositories
+
+- [ai-automatyzacja-biznesu](https://github.com/DariuszCiesielski/ai-automatyzacja-biznesu) — practical automation recipes for Polish SMBs
+- [ai-content-marketing](https://github.com/DariuszCiesielski/ai-content-marketing) — AI content pipeline for briefs, articles, and social posts
+- [strategia-marketingowa-ai](https://github.com/DariuszCiesielski/strategia-marketingowa-ai) — end-to-end AI marketing strategy framework
+
+## Stay Connected
+
+- **Newsletter**: [AI w Biznesie](https://aiwbiznesie.pl)
+- **LinkedIn**: [Dariusz Ciesielski](https://www.linkedin.com/in/dariuszciesielski/)
+- **More repositories**: [DariuszCiesielski on GitHub](https://github.com/DariuszCiesielski)
 
 ## Language
 
