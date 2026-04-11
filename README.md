@@ -1,89 +1,85 @@
-🇬🇧 [English](README.md) | 🇵🇱 [Polski](README.pl.md)
+<p align="center">
+  <strong>AI w sprzedaży i generowaniu leadów</strong><br/>
+  Framework generowania leadów z AI i pełną zgodnością RODO — zaprojektowany dla polskiego rynku B2B.
+</p>
 
-![Last updated](https://img.shields.io/badge/Last%20updated-April%202026-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg)
+<p align="center">
+  <img src="https://img.shields.io/badge/Język-Polski-red" alt="Polski" />
+  <img src="https://img.shields.io/badge/Licencja-MIT-green" alt="MIT" />
+  <img src="https://img.shields.io/badge/Moduły-8-blue" alt="8 modułów" />
+  <img src="https://img.shields.io/badge/RODO-zgodny-brightgreen" alt="RODO" />
+</p>
 
-# AI Lead Generation & Sales Framework for the Polish Market
+---
 
-> AI-powered lead generation framework with GDPR compliance for the Polish market
+## Dlaczego to ważne
 
-## What is this?
+| Fakt | Wartość |
+|------|---------|
+| Wzrost konwersji dzięki AI lead gen | **30–50%** |
+| Koszt pozyskania leada z AI | **5–15 zł** |
+| Koszt pozyskania leada tradycyjnie | **50–200 zł** |
+| Zgodność z RODO | **kluczowa na polskim rynku** |
 
-A practical framework for building AI-powered lead generation pipelines — from sourcing and scoring to personalized outreach and follow-up. Designed specifically for the Polish market with full GDPR/RODO compliance built in.
+AI zmienia reguły gry w generowaniu leadów. Ten framework pokazuje jak — od źródeł i scoringu po personalizację i follow-up — z pełną zgodnością z RODO.
 
-## Who is this for?
+---
 
-- **B2B companies** looking to automate lead generation
-- **Sales teams** wanting AI-assisted prospecting
-- **Marketing agencies** building lead gen services for clients
-- **Founders** who need a systematic approach to finding customers
+## Spis treści
 
-## Framework Structure
+### Framework (`/framework/`)
 
-### 📖 Framework (`/framework/`)
+| # | Temat | Opis |
+|---|-------|------|
+| 01 | [Strategia](framework/01-strategia.md) | Strategia AI lead gen: inbound vs outbound |
+| 02 | [Źródła leadów](framework/02-zrodla-leadow.md) | Google Maps, strony www, social media, eventy |
+| 03 | [Scoring AI](framework/03-scoring-ai.md) | Dopasowanie ICP, sygnały behawioralne, modele scoringu |
+| 04 | [Personalizacja](framework/04-personalizacja.md) | Personalizacja outreach z AI |
+| 05 | [Follow-up](framework/05-follow-up.md) | Automatyczne sekwencje follow-up |
+| 06 | [Zgodność RODO](framework/06-rodo-compliance.md) | Pełna checklista RODO dla polskich firm |
+| 07 | [Narzędzia](framework/07-narzedzia.md) | Porównanie: Hunter.io, Apollo, LinkedIn Sales Nav |
+| 08 | [Metryki](framework/08-metryki.md) | KPI i metryki kampanii lead gen |
 
-| # | Topic | Description |
-|---|-------|-------------|
-| 01 | [Strategy](framework/01-strategia.md) | AI lead gen strategy: inbound vs outbound |
-| 02 | [Lead Sources](framework/02-zrodla-leadow.md) | Google Maps, websites, social media, events |
-| 03 | [AI Scoring](framework/03-scoring-ai.md) | ICP matching, behavioral signals, scoring models |
-| 04 | [Personalization](framework/04-personalizacja.md) | AI-powered outreach personalization |
-| 05 | [Follow-up](framework/05-follow-up.md) | Automated follow-up sequences |
-| 06 | [GDPR Compliance](framework/06-rodo-compliance.md) | Full GDPR/RODO checklist for Polish companies |
-| 07 | [Tools](framework/07-narzedzia.md) | Tools comparison: Hunter.io, Apollo, LinkedIn Sales Nav |
-| 08 | [Metrics](framework/08-metryki.md) | KPIs and metrics for lead gen campaigns |
+### Szablony (`/templates/`)
 
-### 📝 Templates (`/templates/`)
+- [Szablon ICP](templates/icp-template.md) — Ideal Customer Profile ze scoringiem
+- [Szablony email](templates/outreach-email-templates.md) — 5 szablonów cold email po polsku
+- [Matryca scoringu](templates/scoring-matrix.md) — Matryca scoringu leadów z wagami
 
-- [ICP Template](templates/icp-template.md) — Ideal Customer Profile template with scoring
-- [Email Templates](templates/outreach-email-templates.md) — 5 cold email templates in Polish
-- [Scoring Matrix](templates/scoring-matrix.md) — Lead scoring matrix with weights
+### Checklisty (`/checklists/`)
 
-### ✅ Checklists (`/checklists/`)
+- [Checklista RODO](checklists/rodo-checklist.md) — Pełna checklista zgodności z RODO
+- [Checklista kampanii](checklists/kampania-checklist.md) — Checklista startu kampanii
 
-- [GDPR Checklist](checklists/rodo-checklist.md) — Full GDPR compliance checklist (Polish law)
-- [Campaign Checklist](checklists/kampania-checklist.md) — Campaign launch checklist
+---
 
-## Key Differentiators
+## Dla kogo
 
-1. **GDPR-first approach** — Every technique includes compliance notes. Essential for EU/Polish market.
-2. **Polish market focus** — Templates in Polish, local tools, Polish legal requirements
-3. **AI-native** — Not just "add AI to old methods" but rethinking lead gen with LLMs
-4. **Practical** — Ready-to-use templates, not just theory
+- ✅ **Firmy B2B** — chcesz zautomatyzować generowanie leadów i obniżyć koszt pozyskania
+- ✅ **Zespoły sprzedażowe** — szukacie AI-wspieranego prospectingu zgodnego z RODO
+- ✅ **Agencje marketingowe** — budujecie usługi lead gen dla klientów na polskim rynku
+- ✅ **Founderzy** — potrzebujesz systematycznego podejścia do pozyskiwania klientów
 
-## Quick Start
+---
 
-1. Define your [ICP](templates/icp-template.md) (Ideal Customer Profile)
-2. Read the [Strategy](framework/01-strategia.md) to choose inbound vs outbound
-3. Set up [Lead Sources](framework/02-zrodla-leadow.md)
-4. Configure [AI Scoring](framework/03-scoring-ai.md)
-5. Launch with the [Campaign Checklist](checklists/kampania-checklist.md)
+## Chcesz to wdrożyć?
 
-## GDPR/RODO Warning
+Wiedza jest darmowa. Wdrożenie wymaga narzędzi i doświadczenia.
 
-This framework emphasizes legal compliance. However, **you are responsible** for ensuring your specific implementation complies with applicable laws. When in doubt, consult a legal professional specializing in GDPR/RODO.
+👉 **[AI w Biznesie](https://aiwbiznesie.online)** — blog, narzędzia i case studies wdrożeń AI w sprzedaży
 
-## Contributing
+👉 **[Umów konsultację](https://aiwbiznesie.online/kontakt/)** — pomogę zbudować pipeline leadów z AI dla Twojej firmy
 
-Contributions, corrections, and field-tested sales workflows are welcome. Open an issue or PR if you want to improve the framework or add a practical case study.
+---
 
-## Related Repositories
+## Uwaga prawna
 
-- [ai-automatyzacja-biznesu](https://github.com/DariuszCiesielski/ai-automatyzacja-biznesu) — practical automation recipes for Polish SMBs
-- [ai-content-marketing](https://github.com/DariuszCiesielski/ai-content-marketing) — AI content pipeline for briefs, articles, and social posts
-- [strategia-marketingowa-ai](https://github.com/DariuszCiesielski/strategia-marketingowa-ai) — end-to-end AI marketing strategy framework
+Ten framework kładzie nacisk na zgodność z RODO. Jednak **odpowiedzialność za zgodność konkretnej implementacji z prawem** spoczywa na Tobie. W razie wątpliwości skonsultuj się z prawnikiem specjalizującym się w RODO.
 
-## Stay Connected
+---
 
-- **Newsletter**: [AI w Biznesie](https://aiwbiznesie.pl)
-- **LinkedIn**: [Dariusz Ciesielski](https://www.linkedin.com/in/dariuszciesielski/)
-- **More repositories**: [DariuszCiesielski on GitHub](https://github.com/DariuszCiesielski)
+## Licencja
 
-## Language
+MIT — szczegóły w pliku [LICENSE](LICENSE).
 
-The framework content is written in **Polish** 🇵🇱 — targeting the Polish B2B market.
-
-## License
-
-[MIT](LICENSE)
+<p align="center"><sub>Zbudowane przez <a href="https://aiwbiznesie.online">AI w Biznesie</a></sub></p>
